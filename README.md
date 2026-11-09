@@ -1,17 +1,18 @@
 # Window Handler (winh)
 > A lightweight JavaScript window management library for creating, controlling, and managing custom windows inside HTML DOM elements.
+`go to the bottom`
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)]
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/npm/v/winh)](https://www.npmjs.com/package/winh)
 [![NPM Downloads](https://img.shields.io/npm/dm/winh)](https://www.npmjs.com/package/winh)
 
 ## Features
-- 🪟 Dynamic Windows — Create and remove windows dynamically using JavaScript.
-- 🎯 Window Management — Focus, minimize, maximize, restore, and close windows.
-- 🎨 Custom Window Types — Support for different window layouts and behaviors.
-- ⚡ Smooth Transitions — Animated window transitions with customizable durations.
-- 📦 Lightweight — Minimal dependencies and a simple API.
-- 🔧 Extensible — Create custom window types and integrate your own HTML elements.
+- Dynamic Windows — Create and remove windows dynamically using JavaScript.
+- Window Management — Focus, minimize, maximize, restore, and close windows.
+- Custom Window Types — Support for different window layouts and behaviors.
+- Smooth Transitions — Animated window transitions with customizable durations.
+- Lightweight — Minimal dependencies and a simple API.
+- Extensible — Create custom window types and integrate your own HTML elements.
 
 ## Getting Started
 
@@ -32,7 +33,7 @@ Alternatively, you can download or clone the repository and include the source f
 
 ## Usage
 
-1. Initialize the Window Handler
+### 1. Initialize the Window Handler
 
 Create a window handler by providing an HTML element that will contain your windows.
 
@@ -44,7 +45,7 @@ const handler = new WindowHandler(
 );
 ```
 
-2. Create a Window
+### 2. Create a Window
 
 Use `createWindow()` to create a new window.
 
@@ -55,7 +56,7 @@ const win = handler.createWindow({
 });
 ```
 
-3. Manage Windows
+### 3. Manage Windows
 
 The handler provides methods for controlling window states.
 
@@ -67,7 +68,7 @@ handler.focusWindow(win);
 handler.closeWindow(win);
 ```
 
-4. Custom Window Types
+### 4. Custom Window Types
 
 Different window types can be used depending on the purpose of the window.
 
@@ -82,7 +83,7 @@ Different window types can be used depending on the purpose of the window.
 
 Custom types allow you to extend the library and create interfaces suited to your application.
 
-### Window Lifecycle
+### 5. Window Lifecycle
 
 A typical window follows this lifecycle:
 
@@ -102,7 +103,7 @@ flowchart TD
     I --> J([End])
 ```
 
-### Architecture
+### 6. Architecture
 
 The library separates window management from individual window implementations.
 
@@ -122,7 +123,7 @@ flowchart TB
     C --> M[Active Windows]
 ```
 
-### Configuration
+### 7. Configuration
 
 Window configuration is provided when creating a window.
 
@@ -135,7 +136,7 @@ Window configuration is provided when creating a window.
 
 Additional configuration options may depend on the selected window type.
 
-### Transitions
+### 8. Transitions
 
 Window transitions can be controlled through the transition manager.
 
@@ -176,9 +177,9 @@ git push origin feature/amazing-feature
 
 ## License
 
-Distributed under the MIT License. See [LICENSE]() for more information.
+Distributed under the MIT License. See [license](LICENSE) for more information.
 
 ---
 
-> winh — basically your chair if you cant stand up.
+> Official first release coming soon.
 > ~ CoconutCaty
